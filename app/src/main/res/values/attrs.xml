@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="text_color" format="color" />
+
+    <attr name="chip_textColor_selected" format="color" />
+    <attr name="chip_textColor_checked" format="color" />
+    <attr name="chip_textColor" format="color" />
+
+    <declare-styleable name="CustomView">
+        <attr name="android:text" />
+        <attr name="android:src" />
+    </declare-styleable>
+
+    <declare-styleable name="LetrasChip">
+        <attr name="android:textColor" />
+        <attr name="android:textAppearance" />
+        <attr name="chip_textAppearance" format="reference" />
+        <attr name="chip_textAppearance_checked" format="reference" />
+    </declare-styleable>
+
+</resources>

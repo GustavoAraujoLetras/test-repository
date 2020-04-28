@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <plurals name="teste">
+        <item quantity="zero">Nenhum</item>
+        <item quantity="one">Apenas um</item>
+        <item quantity="two">Apenas dois</item>
+        <item quantity="few">Alguns</item>
+        <item quantity="many">Vários</item>
+        <item quantity="other">Inúmeros</item>
+    </plurals>
+</resources>

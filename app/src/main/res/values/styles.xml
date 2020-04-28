@@ -1,0 +1,45 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">#FF00FF</item>
+    </style>
+
+    <style name="Theme.Chip" parent="Theme.MaterialComponents.DayNight">
+        <item name="chip_textColor_selected">#0000FF</item>
+        <item name="chip_textColor_checked">#00FF00</item>
+        <item name="chip_textColor">#FF9000</item>
+    </style>
+
+    <style name="TextAppearance.Letras" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">72dp</item>
+        <item name="android:textColor">#FF00FF</item>
+    </style>
+
+    <style name="TextAppearance.Letras.Chip" parent="TextAppearance.Letras">
+        <item name="android:textSize">28dp</item>
+    </style>
+
+    <style name="TextAppearance.Chip.Checked" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">28dp</item>
+        <item name="android:fontFamily">sans-serif-black</item>
+    </style>
+
+    <style name="Widget.Letras.Chip" parent="Widget.MaterialComponents.Chip.Action">
+        <item name="android:checkable">true</item>
+        <item name="android:textColor">@color/chip_text_color</item>
+
+        <item name="checkedIconVisible">false</item>
+
+        <item name="closeIconTint">@color/chip_text_color</item>
+        <item name="closeIconVisible">false</item>
+
+        <item name="chip_textAppearance">@style/TextAppearance.Letras.Chip</item>
+        <item name="chip_textAppearance_checked">@style/TextAppearance.Chip.Checked</item>
+    </style>
+
+</resources>
